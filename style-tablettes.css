@@ -1,0 +1,215 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url('fonts/OpenSans-Bold-webfont.eot') url('fonts/OpenSans-Bold-webfont.ttf') url('fonts/OpenSans-Bold-webfont.woff');
+    font-weight: bold;
+    font-style: normal;
+    src: url('fonts/OpenSans-BoldItalic-webfont.eot') url('fonts/OpenSans-BoldItalic-webfont.ttf') url('fonts/OpenSans-BoldItalic-webfont.woff');
+    font-weight: bold;
+    font-style: italic;
+    src: url('fonts/OpenSans-Italic-webfont.eot') url('fonts/OpenSans-Italic-webfont.ttf') url('fonts/OpenSans-Italic-webfont.woff');
+    font-weight: normal;
+    font-style: italic;
+    src: url('fonts/OpenSans-Regular-webfont.eot') url('fonts/OpenSans-Regular-webfont.ttf') url('fonts/OpenSans-Regular-webfont.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    color: #3b3b3b;
+    font-family: 'OpenSans', sans-serif;
+}
+
+.partie-gauche {
+    background-color: #C5E1A5;
+    width: 55%;
+    padding-top: 50px;
+    color: #3b3b3b;
+    height: 100%;
+}
+
+.photo {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#photo {
+    width: 70%;
+}
+
+h3 {
+    color: #D2E1B7;
+    background-color: #3b3b3b;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+.partie-gauche p {
+    padding-left: 40px;
+}
+
+#contenu-contact {
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+
+#a-propos p {
+    margin-right: 40px;
+    margin-top: 35px;
+    padding-bottom: 300px;
+    text-align: justify;
+}
+
+.icones {
+    display: flex;
+    justify-content: center;
+}
+
+#cooking {
+    margin-top: 15px;
+    color: #3B3B3B;
+}
+
+#cinema {
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+#tools {
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+#loisirs {
+    margin-bottom: 40px;
+}
+
+.partie-droite {
+    height: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#nom-prenom {
+    display: flex;
+    margin-top: 50px;
+    font-size: 2.2em;
+}
+
+#nom-prenom #prenom {
+    color: #C5E1A5;
+    font-weight: normal;
+}
+
+#nom-prenom #nom {
+    margin-left: 10px;
+    font-weight: normal;
+}
+
+#souligner {
+    border-bottom: solid;
+    border-color: #C5E1A5;
+    border-width: 2.8px;
+    padding-bottom: 2px;
+}
+
+#metier {
+    margin-top: -28px;
+    font-weight: normal;
+    font-size: 1.6em;
+}
+
+.bloc {
+    margin-top: 30px;
+}
+
+#first-bloc {
+    margin-top: 90px;
+}
+
+.bloc .titre-bloc {
+    display: flex;
+    margin-bottom: 30px;
+    border-bottom: solid #C5E1A5 3px;
+}
+
+.titre-bloc h2 {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 1.8em;
+    font-weight: normal;
+}
+
+#icone-form {
+    margin-top: 22px;
+    margin-right: 20px;
+    padding-left: 5px;
+}
+
+#icone-exp {
+    margin-top: 22px;
+    margin-right: 20px;
+    padding-left: 5px;
+}
+
+#icone-rec {
+    margin-top: 22px;
+    margin-right: 20px;
+    padding-left: 5px;
+}
+
+.sous-bloc {
+    display: flex;
+}
+
+.puce-date {
+    display: flex;
+}
+
+#puce1 {
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+#puce2 {
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+#puce3 {
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+#puce4 {
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+.lieu {
+    text-align: left;
+    width: 200px;
+    margin-top: -15px;
+    margin-left: 30px;
+}
+
+#rec-droite {
+    margin-left: 140px;
+    line-height: 10px;
+}
+
+#rec {
+    line-height: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: #8a9e72;
+}
+
+.link:hover {
+    color: #a8be8b;
+}
