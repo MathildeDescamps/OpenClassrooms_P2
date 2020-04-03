@@ -5,67 +5,30 @@
     <meta charset="UTF-8" />
     <title> Mon CV en page web</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 991px)" href="moyenne_resolution.css" />
     <script src="https://kit.fontawesome.com/a113c07fb8.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-
-    <div class="partie-gauche">
-
-        <section class="photo">
-            <img id="photo" src="images/photo-CV.png" alt="Photo de moi" />
-        </section>
-
-        <section id="contact">
-            <h3>CONTACT</h3>
-            <div id="contenu-contact">
-                <p>Adresse<br />Paris, France</p>
-                <p>Téléphone<br />07 68 41 20 07</p>
-                <p>Email<br>mdescamps@kira-factory.com</p>
-                <p>Site web<br />www.name.com</p>
-                <p>Skype<br />@nom_dutilisateur</p>
+    <section id="cv-phone">
+        <section id="header-phone">
+            <div class="bloc-photo-phone">
+                <img id="photo-phone" src="images/photo-CV.png" alt="Photo de moi" />
             </div>
-        </section>
-
-        <section id="a-propos">
-            <h3>À PROPOS DE MOI</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec lacus at nisl mollis sodales interdum ut enim. Ut a varius augue. Maecenas ultrices tristique imperdiet. Donec et turpis in nisi molestie aliquet ac eu arcu. Phasellus elit lectus, efficitur
-                a pretium in, feugiat nec nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque vehicula justo eget sem sodales, in venenatis purus interdum. Curabitur porttitor nisi a tortor sodales,
-                non volutpat ligula elementum.
-            </p>
-        </section>
-
-        <section id="loisirs">
-            <h3>LOISIRS</h3>
-            <div class="icones">
-                <i class="fas fa-concierge-bell fa-4x fa-fw" id="cooking"></i>
-                <i class="fas fa-film fa-4x fa-fw" id="cinema"></i>
-                <i class="fas fa-hammer fa-4x fa-fw" id="tools"></i>
+            <div id="nom-prenom-phone">
+                <h1 id="prenom-phone">MATHILDE</h1>
+                <h1 id="nom-phone">DESCAMPS</h1>
             </div>
+            <h2 id="metier-phone"><span id="souligner-phone">Dével</span>oppeuse web freelance</h2>
         </section>
-
-    </div>
-
-    <div class="partie-droite">
-
-        <section id="nom-prenom">
-            <h1 id="prenom">MATHILDE</h1>
-            <h1 id="nom">DESCAMPS</h1>
-        </section>
-
-        <h2 id="metier"><span id="souligner">Dével</span>oppeuse web freelance</h2>
-
-        <section class="bloc" id="first-bloc">
+        <section id="formation">
             <div class="titre-bloc">
-                <i id="icone-form" class="fas fa-graduation-cap fa-2x"></i>
+                <i id="icone-form" class="fas fa-graduation-cap fa-lg"></i>
                 <h2>FORMATION</h2>
             </div>
             <div class="sous-bloc">
                 <div class="sb-gauche">
                     <div class="puce-date">
-                        <i id="puce1" class="far fa-dot-circle"></i>
+                        <i id="puce1phone" class="far fa-dot-circle fa-xs"></i>
                         <p>2019</p>
                     </div>
                     <p class="lieu">Noeux-les-mines</p>
@@ -73,13 +36,13 @@
                 <div class="sb-droit">
                     <p><b>LYCEE POLYVALENT D'ARTOIS</b></p>
                     <p>Bachelière</p>
-                    <p>Obtention du Baccalauréat en série Scientifique (spécialité Sciences et Vie de la Terre) avec mention "Assez Bien".</p>
+                    <p class="parag">Obtention du Baccalauréat en série Scientifique (spécialité Sciences et Vie de la Terre) avec mention "Assez Bien".</p>
                 </div>
             </div>
-            <div class="sous-bloc">
+            <div id="sb2" class="sous-bloc">
                 <div class="sb-gauche">
                     <div class="puce-date">
-                        <i id="puce2" class="fas fa-circle fa-xs"></i>
+                        <i id="puce2phone" class="fas fa-circle fa-xs"></i>
                         <p>Fin 2018</p>
                     </div>
                     <p class="lieu">Paris</p>
@@ -87,13 +50,13 @@
                 <div class="sb-droit">
                     <p><b>UNITY</b></p>
                     <p>Création d'un mini jeu-vidéo en 2D</p>
-                    <p>Formation d'une journée à Paris avec Unity pour apprendre à créer un jeu-vidéo en 2D.</p>
+                    <p class="parag">Formation d'une journée à Paris avec Unity pour apprendre à créer un jeu-vidéo en 2D.</p>
                 </div>
             </div>
             <div class="sous-bloc">
                 <div class="sb-gauche">
                     <div class="puce-date">
-                        <i id="puce3" class="fas fa-circle fa-xs"></i>
+                        <i id="puce3phone" class="fas fa-circle fa-xs"></i>
                         <p>2018</p>
                     </div>
                     <p class="lieu">À domicile</p>
@@ -101,20 +64,19 @@
                 <div class="sb-droit">
                     <p><b>OPENCLASSROOMS</b></p>
                     <p>Formation en informatique</p>
-                    <p>Formation sur les langages Web de base (HTML5 et CSS3) avec les cours "Comprendre le Web" et "Apprenez à créer votre site web avec HTML5 et CSS3" sur le site <a class="link" href="https://openclassrooms.com/">OpenClassrooms</a>.</p>
+                    <p class="parag">Formation sur les langages Web de base (HTML5 et CSS3) avec les cours "Comprendre le Web" et "Apprenez à créer votre site web avec HTML5 et CSS3" sur le site <a class="link" href="https://openclassrooms.com/">OpenClassrooms</a>.</p>
                 </div>
             </div>
         </section>
-
-        <section class="bloc">
-            <div class="titre-bloc">
-                <i id="icone-exp" class="fas fa-briefcase fa-2x"></i>
+        <section id="experiences-pro">
+            <div id="titre-exp" class="titre-bloc">
+                <i id="icone-exp-phone" class="fas fa-briefcase fa-lg"></i>
                 <h2>EXPERIENCE PROFESSIONELLE</h2>
             </div>
             <div class="sous-bloc">
                 <div class="sb-gauche">
                     <div class="puce-date">
-                        <i id="puce4" class="far fa-dot-circle"></i>
+                        <i id="puce4phone" class="far fa-dot-circle fa-xs"></i>
                         <p>2016</p>
                     </div>
                     <p class="lieu">Mazingarbe<br/> Bully-les-mines</p>
@@ -122,31 +84,169 @@
                 <div class="sb-droit">
                     <p><b>STAGES DE DECOUVERTE POUR LE COLLEGE BLAISE PASCAL</b></p>
                     <p>Cabinet de dentiste</p>
-                    <p>3 jours de découverte et d'observation aux côtés de l'équipe du cabinet dentaire de Mazingarbe.</p>
+                    <p class="parag">3 jours de découverte et d'observation aux côtés de l'équipe du cabinet dentaire de Mazingarbe.</p>
                     <p>Centre social</p>
-                    <p>4 jours de découverte, observation et assistance au centre social de Bully-les-mines.</p>
+                    <p class="parag">4 jours de découverte, observation et assistance au centre social de Bully-les-mines.</p>
                 </div>
             </div>
         </section>
-        <section class="bloc">
+        <section id="recommandations" class="bloc">
             <div class="titre-bloc">
-                <i id="icone-rec" class="fas fa-pen-fancy fa-2x"></i>
+                <i id="icone-rec-phone" class="fas fa-pen-fancy fa-lg"></i>
                 <h2>RECOMMANDATIONS</h2>
             </div>
             <div class="sous-bloc">
-                <div id="rec" class="sb-gauche">
+                <div id="recphone" class="sb-gauche">
                     <p>MAXIME KIEMAN</p><br/>
-                    <p>Directeur : Mon agence</p>
-                    <p>Téléphone : 06 01 02 03 04</p>
-                    <p>Email : name@email.com</p>
-                </div>
-                <div id="rec-droite" class="sb-droit">
-                    <p>MAXIME KIEMAN</p><br/>
-                    <p>Directeur : Mon agence</p>
+                    <p class="parag">Directeur : Mon agence</p>
                     <p>Téléphone : 06 01 02 03 04</p>
                     <p>Email : name@email.com</p>
                 </div>
             </div>
+        </section>
+    </section>
+    <section id="cv">
+        <div class="partie-gauche">
+
+            <section class="photo">
+                <img id="photo" src="images/photo-CV.png" alt="Photo de moi" />
+            </section>
+
+            <section id="contact">
+                <h3>CONTACT</h3>
+                <div id="contenu-contact">
+                    <p>Adresse<br />Paris, France</p>
+                    <p>Téléphone<br />07 68 41 20 07</p>
+                    <p>Email<br>mdescamps@kira-factory.com</p>
+                    <p>Site web<br />www.name.com</p>
+                    <p>Skype<br />@nom_dutilisateur</p>
+                </div>
+            </section>
+
+            <section id="a-propos">
+                <h3>À PROPOS DE MOI</h3>
+                <p>
+                    Après le Bac, je décide de commencer un DUT « Multimédias et Métiers de l’Internet ». Très vite, cette formation me fait redécouvrir la passion et la fascination que j’avais déjà pour le Web et le monde de l’Internet. Malheuresement les cours de Web se
+                    font rares et je suis de plus en plus frustrée et démotivée. Je décide alors de quitter le DUT dès la fin du premier semestre et de commencer une formation 100% web : le parcours « Développeur Web » d’OpenClassrooms.
+                </p>
+            </section>
+
+            <section id="loisirs">
+                <h3>LOISIRS</h3>
+                <div class="icones-desktop">
+                    <i class="fas fa-concierge-bell fa-4x fa-fw" id="cooking"></i>
+                    <i class="fas fa-film fa-4x fa-fw" id="cinema"></i>
+                    <i class="fas fa-hammer fa-4x fa-fw" id="tools"></i>
+                </div>
+                <div class="icones-tab">
+                    <i class="fas fa-concierge-bell fa-3x fa-fw" id="cooking"></i>
+                    <i class="fas fa-film fa-3x fa-fw" id="cinema"></i>
+                    <i class="fas fa-hammer fa-3x fa-fw" id="tools"></i>
+                </div>
+            </section>
+
+        </div>
+
+        <div class="partie-droite">
+
+            <section id="nom-prenom">
+                <h1 id="prenom">MATHILDE</h1>
+                <h1 id="nom">DESCAMPS</h1>
+            </section>
+
+            <h2 id="metier"><span id="souligner">Dével</span>oppeuse web freelance</h2>
+
+            <section class="bloc" id="first-bloc">
+                <div class="titre-bloc">
+                    <i id="icone-form" class="fas fa-graduation-cap fa-2x"></i>
+                    <h2>FORMATION</h2>
+                </div>
+                <div class="sous-bloc">
+                    <div class="sb-gauche">
+                        <div class="puce-date">
+                            <i id="puce1" class="far fa-dot-circle"></i>
+                            <p>2019</p>
+                        </div>
+                        <p class="lieu">Noeux-les-mines</p>
+                    </div>
+                    <div class="sb-droit">
+                        <p><b>LYCEE POLYVALENT D'ARTOIS</b></p>
+                        <p>Bachelière</p>
+                        <p>Obtention du Baccalauréat en série Scientifique (spécialité Sciences et Vie de la Terre) avec mention "Assez Bien".</p>
+                    </div>
+                </div>
+                <div class="sous-bloc">
+                    <div class="sb-gauche">
+                        <div class="puce-date">
+                            <i id="puce2" class="fas fa-circle fa-xs"></i>
+                            <p>Fin 2018</p>
+                        </div>
+                        <p class="lieu">Paris</p>
+                    </div>
+                    <div class="sb-droit">
+                        <p><b>UNITY</b></p>
+                        <p>Création d'un mini jeu-vidéo en 2D</p>
+                        <p>Formation d'une journée à Paris avec Unity pour apprendre à créer un jeu-vidéo en 2D.</p>
+                    </div>
+                </div>
+                <div class="sous-bloc">
+                    <div class="sb-gauche">
+                        <div class="puce-date">
+                            <i id="puce3" class="fas fa-circle fa-xs"></i>
+                            <p>2018</p>
+                        </div>
+                        <p class="lieu">À domicile</p>
+                    </div>
+                    <div class="sb-droit">
+                        <p><b>OPENCLASSROOMS</b></p>
+                        <p>Formation en informatique</p>
+                        <p>Formation sur les langages Web de base (HTML5 et CSS3) avec les cours "Comprendre le Web" et "Apprenez à créer votre site web avec HTML5 et CSS3" sur le site <a class="link" href="https://openclassrooms.com/">OpenClassrooms</a>.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bloc">
+                <div class="titre-bloc">
+                    <i id="icone-exp" class="fas fa-briefcase fa-2x"></i>
+                    <h2>EXPERIENCE PROFESSIONELLE</h2>
+                </div>
+                <div class="sous-bloc">
+                    <div class="sb-gauche">
+                        <div class="puce-date">
+                            <i id="puce4" class="far fa-dot-circle"></i>
+                            <p>2016</p>
+                        </div>
+                        <p class="lieu">Mazingarbe<br/> Bully-les-mines</p>
+                    </div>
+                    <div class="sb-droit">
+                        <p><b>STAGES DE DECOUVERTE POUR LE COLLEGE BLAISE PASCAL</b></p>
+                        <p>Cabinet de dentiste</p>
+                        <p>3 jours de découverte et d'observation aux côtés de l'équipe du cabinet dentaire de Mazingarbe.</p>
+                        <p>Centre social</p>
+                        <p>4 jours de découverte, observation et assistance au centre social de Bully-les-mines.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="bloc">
+                <div class="titre-bloc">
+                    <i id="icone-rec" class="fas fa-pen-fancy fa-2x"></i>
+                    <h2>RECOMMANDATIONS</h2>
+                </div>
+                <div class="sous-bloc">
+                    <div id="rec" class="sb-gauche">
+                        <p>MAXIME KIEMAN</p><br/>
+                        <p>Directeur : Mon agence</p>
+                        <p>Téléphone : 06 01 02 03 04</p>
+                        <p>Email : name@email.com</p>
+                    </div>
+                    <div id="rec-droite" class="sb-droit">
+                        <p>MAXIME KIEMAN</p><br/>
+                        <p>Directeur : Mon agence</p>
+                        <p>Téléphone : 06 01 02 03 04</p>
+                        <p>Email : name@email.com</p>
+                    </div>
+                </div>
+            </section>
 </body>
 
 </html>

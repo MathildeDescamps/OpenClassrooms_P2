@@ -362,3 +362,114 @@
         color: #a8be8b;
     }
 }
+
+@media all and (max-width: 768px) {
+    #cv {
+        display: none;
+    }
+    #cv-phone {
+        color: #3b3b3b;
+        font-family: 'OpenSans', sans-serif;
+    }
+    .bloc-photo-phone {
+        width: 100%;
+        text-align: center;
+        background-color: #C5E1A5;
+    }
+    #photo-phone {
+        width: 25%;
+        margin-top: 5px;
+    }
+    #nom-prenom-phone {
+        display: flex;
+        justify-content: center;
+        font-weight: normal;
+        margin-top: -15px;
+        font-size: 1.3em;
+    }
+    #prenom-phone {
+        color: rgb(171, 194, 145);
+    }
+    #nom-phone {
+        margin-left: 10px;
+    }
+    #metier-phone {
+        font-size: 1em;
+        font-weight: bold;
+        text-align: center;
+        margin-top: -20px;
+    }
+    #souligner-phone {
+        border-bottom: solid rgb(171, 194, 145) 2px;
+    }
+    .titre-bloc {
+        display: flex;
+        justify-content: center;
+        font-size: 0.8em;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        border-bottom: solid rgb(171, 194, 145) 2px;
+    }
+    #icone-form {
+        padding-top: 22px;
+        margin-right: 10px;
+    }
+    .puce-date {
+        display: flex;
+        margin-top: -10px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #puce1phone {
+        padding-top: 20px;
+        margin-right: 10px;
+    }
+    .lieu {
+        margin-top: -15px;
+        margin-left: 42px;
+        margin-right: 20px;
+    }
+    .sb-droit {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 15px;
+    }
+    .parag {
+        margin-top: -10px;
+    }
+    #puce2phone {
+        padding-top: 18px;
+        margin-right: 10px
+    }
+    .sous-bloc {
+        margin-top: 20px;
+    }
+    #puce3phone {
+        padding-top: 19px;
+        margin-right: 10px
+    }
+    .link {
+        text-decoration: none;
+        color: #8a9e72;
+    }
+    .link:hover {
+        color: #a8be8b;
+    }
+    #puce4phone {
+        padding-top: 20px;
+        margin-right: 10px;
+    }
+    #icone-exp-phone {
+        padding-top: 22px;
+        margin-right: 10px;
+    }
+    #icone-rec-phone {
+        padding-top: 22px;
+        margin-right: 10px;
+    }
+    #recphone {
+        margin-left: 40px;
+        line-height: 15px;
+    }
+}
