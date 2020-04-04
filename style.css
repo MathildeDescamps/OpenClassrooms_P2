@@ -141,16 +141,19 @@
         margin-top: 22px;
         margin-right: 20px;
         padding-left: 5px;
+        color: #C5E1A5;
     }
     #icone-exp {
         margin-top: 22px;
         margin-right: 20px;
         padding-left: 5px;
+        color: #C5E1A5;
     }
     #icone-rec {
         margin-top: 22px;
         margin-right: 20px;
         padding-left: 5px;
+        color: #C5E1A5;
     }
     .sous-bloc {
         display: flex;
@@ -161,18 +164,22 @@
     #puce1 {
         margin-top: 20px;
         margin-right: 15px;
+        color: #C5E1A5;
     }
     #puce2 {
         margin-top: 20px;
         margin-right: 15px;
+        color: #C5E1A5;
     }
     #puce3 {
         margin-top: 20px;
         margin-right: 15px;
+        color: #C5E1A5;
     }
     #puce4 {
         margin-top: 20px;
         margin-right: 15px;
+        color: #C5E1A5;
     }
     .lieu {
         text-align: left;
@@ -314,16 +321,19 @@
         margin-top: 22px;
         margin-right: 20px;
         padding-left: 5px;
+        color: #C5E1A5;
     }
     #icone-exp {
         margin-top: 22px;
         margin-right: 20px;
         padding-left: 5px;
+        color: #C5E1A5;
     }
     #icone-rec {
         margin-top: 22px;
         margin-right: 20px;
         padding-left: 5px;
+        color: #C5E1A5;
     }
     .sous-bloc {
         display: flex;
@@ -334,18 +344,22 @@
     #puce1 {
         margin-top: 20px;
         margin-right: 15px;
+        color: #C5E1A5;
     }
     #puce2 {
         margin-top: 20px;
         margin-right: 15px;
+        color: #C5E1A5;
     }
     #puce3 {
         margin-top: 20px;
         margin-right: 15px;
+        color: #C5E1A5;
     }
     #puce4 {
         margin-top: 20px;
         margin-right: 15px;
+        color: #C5E1A5;
     }
     .lieu {
         text-align: left;
@@ -379,7 +393,7 @@
         background-color: rgba(255, 255, 231, 0.644);
     }
     .bloc-photo-phone {
-        width: 100%;
+        "'('" width: 100%;
         text-align: center;
         background-color: #C5E1A5;
     }
@@ -420,6 +434,7 @@
     #icone-form {
         padding-top: 22px;
         margin-right: 10px;
+        color: #C5E1A5;
     }
     .puce-date {
         display: flex;
@@ -430,6 +445,7 @@
     #puce1phone {
         padding-top: 20px;
         margin-right: 10px;
+        color: #C5E1A5;
     }
     .lieu {
         margin-top: -15px;
@@ -446,14 +462,16 @@
     }
     #puce2phone {
         padding-top: 18px;
-        margin-right: 10px
+        margin-right: 10px;
+        color: #C5E1A5;
     }
     .sous-bloc {
         margin-top: 20px;
     }
     #puce3phone {
         padding-top: 19px;
-        margin-right: 10px
+        margin-right: 10px;
+        color: #C5E1A5;
     }
     .link {
         text-decoration: none;
@@ -465,14 +483,17 @@
     #puce4phone {
         padding-top: 20px;
         margin-right: 10px;
+        color: #C5E1A5;
     }
     #icone-exp-phone {
         padding-top: 22px;
         margin-right: 10px;
+        color: #C5E1A5;
     }
     #icone-rec-phone {
         padding-top: 22px;
         margin-right: 10px;
+        color: #C5E1A5;
     }
     #recphone {
         margin-left: 40px;
@@ -505,11 +526,19 @@
         display: flex;
         padding-top: 10px;
         padding-bottom: 10px;
+        align-items: center;
+        padding-left: 20%;
     }
     #contact-droit {
         margin-left: 80px;
     }
     #icones-mobiles {
-        padding-left: 35%;
+        text-align: center;
+    }
+    #cookingphone {
+        margin-right: 20px;
+    }
+    #cinemaphone {
+        margin-right: 20px;
     }
 }
